@@ -1,0 +1,75 @@
+/*
+Theme Name: WP Lesson
+Theme URI: http://example.com/
+Author: Kaito Koga
+Author URI: http://example.com/
+Description: Digital Hollywood WordPress lesson.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, simple
+Text Domain: mytheme
+*/
+
+body {
+	color: #999;
+}
+
+a {
+	color: #3498db;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.site {
+	width: 960px;
+	margin: auto;
+}
+
+.site-header {
+	padding: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.menu {
+	overflow: hidden;
+	list-style: none;
+}
+
+.menu > li {
+	float: left;
+	margin: 0 20px;
+}
+
+.site-body {
+	overflow: hidden;
+}
+
+.sidebar {
+	float: left;
+	width: 25%;
+	padding: 30px;
+	border-right: 1px solid #ccc;
+}
+
+.widget {
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.site-content {
+	overflow: hidden;
+	padding: 30px;
+}
+
+.post {
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.site-footer {
+	padding: 30px;
+	border-top: 1px solid #ccc;
+}
